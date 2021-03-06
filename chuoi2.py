@@ -1,3 +1,4 @@
+#Viết một chương trình chấp nhận đầu vào là một chuỗi họ tên. Đếm chữ viết hoa đầu câu đúng. Và chữ viết chưa đúng.
 print('Enter your name:')       
 dung = 0
 sai = 0

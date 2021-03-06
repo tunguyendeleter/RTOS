@@ -1,11 +1,18 @@
-n = int,input("nhap cac so nguyen: ")
-print(nguyento(n))
+#Nhập mảng và tìm số nguyên tố chẵn trong mảng
+x = 0 
+a = list(map(int,input("\nEnter the numbers : ").strip().split())) 
+print("List is ", a)
 
-def nguyento(x):
-    array = []
-    x = n.split(" ")
-    for i in range(1, len(x) + 1):
+for i in a:
+    count = 0
+    for y in range(1,i + 1):
+        if i%y == 0 and i%2 == 0:
+            count += 1
+    if count == 2:
+        x += 1
+
+print(x)
+
+
         
-
-
-        
+   
