@@ -2,7 +2,7 @@ print('Enter your string:')
 r = []
 x = input()
 x = str(x).split(" ")
-x = sorted()
+x = sorted(x)
 for i in range(len(x)):
     if i == 0:
         r.append(x[i])
